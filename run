@@ -1,0 +1,4 @@
+g++ -c $1-def.cpp;
+g++ -c $1-main.cpp;
+g++ $1-main.o $1-def.o;
+
